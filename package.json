@@ -1,0 +1,30 @@
+{
+  "name": "et-interactive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:front/assets/css",
+    "start": "nodemon server.js",
+    "prod": "gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "gulp-uglify": "^3.0.2",
+    "nodemon": "^3.0.2",
+    "sass": "^1.69.6"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.2",
+    "express": "^4.18.2",
+    "gulp-htmlmin": "^5.0.1",
+    "nodemailer": "^6.9.9"
+  }
+}
